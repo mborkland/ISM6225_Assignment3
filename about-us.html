@@ -10,6 +10,7 @@
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/form.css" />
 
     <title>About Us</title>
 </head>
@@ -67,10 +68,10 @@
                     <img class="card-img-top" src="img/james.jpg" alt="James Long">
                     <div class="card-body">
                         <h5 class="card-title text-center">James Long</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">James is an IT Engineering veteran and author of an advanced technology book published by Cusco. James transitioned into Business Operations for several years and now focuses on Business Analytics, Software Development and Project Management. Jmaes holds a B.S. in Business Administration from the University of Florida as well as numerous technical and professional certifications.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">MS, Business Analytics and Information Systems</li>
+                            <li class="list-group-item">Expected July 2021</li>
                             <li class="list-group-item">Vestibulum at eros</li>
                             <li class="list-group-item"><a href="#" class="btn btn-primary">LinkedIn</a></li>
                         </ul>
@@ -80,15 +81,44 @@
                     <img class="card-img-top" src="img/aston.jpg" alt="Aston Wright">
                     <div class="card-body">
                         <h5 class="card-title text-center">Aston Wright</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Aston is currently a Business Analyst working for the University of South Florida. He is working as a Graduate Assistant while doing Analytics for the Academic Success Center. He is extremely interested in Data Science and Sports. Hopefully in the future he can work with NBA Athletes to improve thier performances. </p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">MS, Business Analytics and Information Systems</li>
+                            <li class="list-group-item">Expected July 2021</li>
+                            <li class="list-group-item">Made changes to the about us page by updating Bio's and adding a form.</li>
                             <li class="list-group-item"><a href="#" class="btn btn-primary">LinkedIn</a></li>
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="img/USFmap.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
