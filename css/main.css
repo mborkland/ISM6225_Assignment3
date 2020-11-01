@@ -81,4 +81,11 @@
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  
+    box-shadow: 0 0 0 0.2rem rgba(0, 57, 42, 0.5);
+}
+
+footer {
+    background: #00392a;
+    color: #c2b163;
+    margin-top: 50px;
+}
