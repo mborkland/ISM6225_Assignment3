@@ -132,13 +132,23 @@ footer {
     left: 10px;
 }
 
-/* control carousel heading */
-.car-head {
-    font-size: 1.1vw;
-    margin-top: 15px;
+/* For mobile phones*/
+@media only screen and (max-width: 600px) {
+    div.resp {
+        font-size: 10px;
+    }
 }
 
-/* make text responsive */
-.resp-text {
-    font-size: 1.1vw;
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    div.resp {
+        font-size: 11px;
+    }
+}
+
+/* For desktops */
+@media only screen and (min-width: 801px) {
+    div.resp {
+        font-size: 13px;
+    }
 }
