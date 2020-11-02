@@ -131,3 +131,14 @@ footer {
     top: 8px;
     left: 10px;
 }
+
+/* control carousel heading */
+.car-head {
+    font-size: 1.1vw;
+    margin-top: 15px;
+}
+
+/* make text responsive */
+.resp-text {
+    font-size: 1.1vw;
+}
